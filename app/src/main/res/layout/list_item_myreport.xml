@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:text="文字1" />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="13sp"
+            android:paddingRight="10dp"
+            android:textColor="#aac3c3c3"
+            android:text="2016年12月19号" />
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/title1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:textColor="#aac3c3c3"
+            android:text="文字3" />
+
+    </RelativeLayout>
+
+</LinearLayout>
